@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { DemoRoutingModule } from './demo-routing.module';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { FlexboxComponent } from './flexbox/flexbox.component';
+import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 
 @NgModule({
   imports: [
@@ -17,6 +18,6 @@ import { FlexboxComponent } from './flexbox/flexbox.component';
     FormsModule,
     DemoRoutingModule
   ],
-  declarations: [ButtonsComponent, FlexboxComponent]
+  declarations: [ButtonsComponent, FlexboxComponent, ExpansionPanelComponent]
 })
 export class DemoModule { }

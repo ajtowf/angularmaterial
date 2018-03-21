@@ -3,15 +3,13 @@ import {
     MatAutocompleteModule,
     MatButtonModule,
     MatButtonToggleModule,
-    MatCheckboxModule,  
-    MatToolbarModule,
-    MatTooltipModule,
     MatCardModule,
+    MatCheckboxModule,
     MatChipsModule,
     MatDatepickerModule,
     MatDialogModule,
+    MatDividerModule,
     MatExpansionModule,
-    MatFormFieldModule,
     MatGridListModule,
     MatIconModule,
     MatInputModule,
@@ -29,24 +27,29 @@ import {
     MatSlideToggleModule,
     MatSnackBarModule,
     MatSortModule,
+    MatStepperModule,
     MatTableModule,
     MatTabsModule,
-    MatStepperModule
+    MatToolbarModule,
+    MatTooltipModule
 } from '@angular/material';
+
 import { CdkTableModule } from '@angular/cdk/table';
 
 @NgModule({
     imports: [
+        CdkTableModule,
         MatAutocompleteModule,
         MatButtonModule,
         MatButtonToggleModule,
         MatCardModule,
         MatCheckboxModule,
         MatChipsModule,
+        MatStepperModule,
         MatDatepickerModule,
         MatDialogModule,
+        MatDividerModule,
         MatExpansionModule,
-        MatFormFieldModule,
         MatGridListModule,
         MatIconModule,
         MatInputModule,
@@ -63,23 +66,24 @@ import { CdkTableModule } from '@angular/cdk/table';
         MatSliderModule,
         MatSlideToggleModule,
         MatSnackBarModule,
-        MatStepperModule,
         MatSortModule,
         MatTableModule,
         MatTabsModule,
         MatToolbarModule,
-        MatTooltipModule,
-        CdkTableModule
+        MatTooltipModule
     ],
     exports: [
+        CdkTableModule,
         MatAutocompleteModule,
         MatButtonModule,
         MatButtonToggleModule,
         MatCardModule,
         MatCheckboxModule,
         MatChipsModule,
+        MatStepperModule,
         MatDatepickerModule,
         MatDialogModule,
+        MatDividerModule,
         MatExpansionModule,
         MatGridListModule,
         MatIconModule,
@@ -97,16 +101,13 @@ import { CdkTableModule } from '@angular/cdk/table';
         MatSliderModule,
         MatSlideToggleModule,
         MatSnackBarModule,
-        MatStepperModule,
         MatSortModule,
         MatTableModule,
         MatTabsModule,
         MatToolbarModule,
-        MatTooltipModule,
-        CdkTableModule
+        MatTooltipModule
     ]
 })
-export class MaterialModule
-{
+export class MaterialModule {
 
 }
